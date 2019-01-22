@@ -130,7 +130,7 @@ spec:
           - name: KONG_PORTAL_GUI_URI
             value: 0.0.0.0:8003
           - name: KONG_LICENSE_DATA
-            value: 'YOUR_LICENSE_HERE'
+            value: '{"license":{"signature":"6db56e14c036edf1ed01f9b738cd36eddb05ed93117ff09f4dc0dd6904b3af7e8d06ac63bea63962b044c2af9d910df5457aad3a4e1cbdf8772a16f2419e6a7b","payload":{"customer":"Engineering do Brasil","license_creation_date":"2019-01-22","product_subscription":"Kong Enterprise Edition","admin_seats":"5","support_plan":"None","license_expiration_date":"2019-02-22","license_key":"00Q4100000wM4TlEAK_a1V1K000005kbYEUAY"},"version":1}}'
         ports:
         - name: admin
           containerPort: 8001
